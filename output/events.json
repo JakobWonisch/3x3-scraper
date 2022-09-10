@@ -1,0 +1,99 @@
+{
+    "2012": [
+        "sao-paulo",
+        "vladivostok",
+        "new-york",
+        "istanbul",
+        "madrid",
+        "miami"
+    ],
+    "2013": [
+        "tokyo",
+        "san-juan",
+        "prague",
+        "lausanne",
+        "rio-de-janeiro",
+        "istanbul"
+    ],
+    "2014": [
+        "manila",
+        "beijing",
+        "chicago",
+        "prague",
+        "lausanne",
+        "rio-de-janeiro",
+        "tokyo"
+    ],
+    "2015": [
+        "manila",
+        "prague",
+        "beijing",
+        "lausanne",
+        "mexico",
+        "rio-de-janeiro",
+        "abu-dhabi"
+    ],
+    "2016": [
+        "mexico-city",
+        "utsunomiya",
+        "prague",
+        "lausanne",
+        "debrecen",
+        "b00089b9-d12d-40f6-a166-a903244d174e",
+        "americas",
+        "abu-dhabi"
+    ],
+    "2017": [
+        "saskatoon",
+        "utsunomiya",
+        "prague",
+        "lausanne",
+        "debrecen",
+        "chengdu",
+        "mexico-city",
+        "beijing-final"
+    ],
+    "2018": [
+        "saskatoon",
+        "utsunomiya",
+        "prague",
+        "lausanne",
+        "debrecen",
+        "mexico-city",
+        "hyderabad",
+        "chengdu",
+        "penang",
+        "beijing-final"
+    ],
+    "2019": [
+        "doha",
+        "chengdu",
+        "mexico-city",
+        "saskatoon",
+        "prague",
+        "lausanne",
+        "debrecen",
+        "montreal",
+        "los-angeles",
+        "nanjing",
+        "jeddah",
+        "utsunomiya"
+    ],
+    "2020": [
+        "debrecen",
+        "hungary",
+        "europe",
+        "doha",
+        "jeddah"
+    ],
+    "2021": [
+        "doha",
+        "lausanne",
+        "debrecen",
+        "montreal",
+        "prague",
+        "abu-dhabi",
+        "mexico-city",
+        "jeddah-final"
+    ]
+}
