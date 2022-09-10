@@ -1,7 +1,18 @@
 import requests
 
 def insertValue(s, k, v):
-    return s.replace("{{" + k + "}}", v)
+    if type(k) is not list:
+        k = [ k ]
+        v = [ v ]
+    
+    res = s
+
+    i = 0
+    for key in k:
+        res = res.replace("{{" + key + "}}", v[i])
+        i = i + 1
+
+    return res
 
 def getText(url):
     html_text = requests.get(url).text

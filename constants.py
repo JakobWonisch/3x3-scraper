@@ -18,4 +18,4 @@ generic_links = [
 ]
 
 re_events = r"<a href=\"/[0-9]*?/([^/\"]+?)\""
-re_games = r"<a href=\"/[0-9]*?/([^/\"]+?)\""
+re_games = r"href=\"/[0-9]*?/[^/\"]+?/games/([^/\"]+?)\""

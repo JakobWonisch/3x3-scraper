@@ -5,31 +5,30 @@ import re
 
 
 # load events
-with open("output/events.json", "w") as outfile:
+with open("output/events.json", "r") as outfile:
     events = json.load(outfile)
 
 # all data will be collected in this array
 data = {}
 
 for season in events:
+    year = {}
     for event in events[season]:
-        print("processing event " + event + " " + season)
-        url = insertValue(query_games, "season", season)
-        url = insertValue(url, "event", event)
+        print("processing event " + event + ", " + season)
+        url = insertValue(query_games, [ "season", "event" ], [ season, event ])
         text = getText(url)
 
         matches = re.findall(re_games, text)
-        year = []
+        eventList = []
         for m in matches:
             if m in generic_links:
                 continue
 
-            year.append(m)
+            eventList.append(m)
+        year[event] = eventList
         
-        year = list(dict.fromkeys(year))
-        data[str(season)] = year
+    data[season] = year
 
-
-# write data to file
-with open("output/games.json", "w") as outfile:
-    json.dump(data, outfile, indent = 4)
+    # write data to file
+    with open("output/games.json", "w") as outfile:
+        json.dump(data, outfile, indent = 4)

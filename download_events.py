@@ -6,7 +6,7 @@ import re
 # all data will be collected in this array
 data = {}
 
-for season in range(2012, 2022):
+for season in range(2012, 2023):
     print("processing season " + str(season))
     url = insertValue(query_events, "season", str(season))
     text = getText(url)
