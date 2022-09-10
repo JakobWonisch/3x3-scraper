@@ -1,6 +1,8 @@
 
 query_events = "https://worldtour.fiba3x3.com/{{season}}/"
 query_games = "https://worldtour.fiba3x3.com/{{season}}/{{event}}/games"
+query_playbyplay = "https://worldtour.fiba3x3.com/api/v2/game/{{game}}/playbyplay/scoring"
+query_stats = "https://worldtour.fiba3x3.com/api/v2/game/{{game}}/stats"
 
 generic_links = [
     "teams",

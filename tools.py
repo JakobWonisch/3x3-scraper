@@ -21,6 +21,10 @@ def getText(url):
     # return unescaped.replace("\/", "/")
     return html_text.replace("\/", "/").replace("\\n", "\n").replace("\\\"", "\"")
 
+def getJson(url):
+    return requests.get(url).json()
+
+
 def parseShots(s):
     if s == "":
         return (0, 0)
