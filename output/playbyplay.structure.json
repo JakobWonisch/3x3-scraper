@@ -1,0 +1,17 @@
+{
+    "year": [
+        "city": [
+            "game-id": {
+                "playbyplay": {
+                    /* entire playbyplay json from fiba3x3 (see readme) */
+                },
+                "stats": {
+                    /* entire stats json from fiba3x3 (see readme) */
+                },
+            },
+            ...
+        ],
+        ...
+    ],
+    ...
+}
